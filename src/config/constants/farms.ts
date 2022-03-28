@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'LUFFY-fUSDT',
     lpAddresses: {
-      250: '0xC4045e90f65dD0405aC6CeAb18Eb37C29A1Bb990',
+      250: '',
       97: '',
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
-      250: '0xa99a2A440494299476f4ceB1696433c66c0d7358',
+      250: '',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.USDT,
@@ -23,12 +23,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'LUFFY-WFTM',
     lpAddresses: {
-      250: '0x1A07372a4B17040BDeeCD416249C1171974199da',
+      250: '',
       97: '',
     },
     tokenSymbol: 'COAL',
     tokenAddresses: {
-      250: '0xa99a2A440494299476f4ceB1696433c66c0d7358',
+      250: '',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.WFTM,
@@ -137,12 +137,12 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'LUFFY',
     lpAddresses: {
-      250: '0xC4045e90f65dD0405aC6CeAb18Eb37C29A1Bb990',
+      250: '',
       97: '', // COAL-USDT LP
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
-      250: '0xa99a2A440494299476f4ceB1696433c66c0d7358',
+      250: '',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.USDT,
