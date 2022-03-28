@@ -26,7 +26,7 @@ const farms: FarmConfig[] = [
       250: '',
       97: '',
     },
-    tokenSymbol: 'COAL',
+    tokenSymbol: 'LUFFY',
     tokenAddresses: {
       250: '',
       97: '',
@@ -138,7 +138,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LUFFY',
     lpAddresses: {
       250: '',
-      97: '', // COAL-USDT LP
+      97: '', // LUFFY-USDT LP
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
