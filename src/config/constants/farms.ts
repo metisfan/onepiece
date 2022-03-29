@@ -152,6 +152,91 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 1,
     isTokenOnly: true,
+    lpSymbol: 'LQDR',
+    lpAddresses: {
+      250: '0x506DdcC751C7d500F983FfdA6DdEfbE458Ba2c33',
+      97: '', // LQDR-wftm
+    },
+    tokenSymbol: 'LQDR',
+    tokenAddresses: {
+      250: '0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9',
+      97: '',
+    },
+    quoteTokenSymbol: QuoteToken.WFTM,
+    quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 10,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'TOMB',
+    lpAddresses: {
+      250: '0x2a651563c9d3af67ae0388a5c8f89b867038089e',
+      97: '', // TOMB-wftm
+    },
+    tokenSymbol: 'TOMB',
+    tokenAddresses: {
+      250: '0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7',
+      97: '',
+    },
+    quoteTokenSymbol: QuoteToken.WFTM,
+    quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 11,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'TSHARE',
+    lpAddresses: {
+      250: '0x4733bc45ef91cf7ccecaeedb794727075fb209f2',
+      97: '', // TSHARE-wftm
+    },
+    tokenSymbol: 'TSHARE',
+    tokenAddresses: {
+      250: '0x4cdf39285d7ca8eb3f090fda0c069ba5f4145b37',
+      97: '',
+    },
+    quoteTokenSymbol: QuoteToken.WFTM,
+    quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 12,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'BELUGA',
+    lpAddresses: {
+      250: '0xFB53a7cA9D93040240479379dc7b4B74EB819179',
+      97: '', // BELUGA-wftm
+    },
+    tokenSymbol: 'BELUGA',
+    tokenAddresses: {
+      250: '0x4A13a2cf881f5378DEF61E430139Ed26d843Df9A',
+      97: '',
+    },
+    quoteTokenSymbol: QuoteToken.WFTM,
+    quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 13,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'RING',
+    lpAddresses: {
+      250: '0x6132ce6aa7c4f25963bfb98bbd1c3d3f9c90a054',
+      97: '', // RING-wftm
+    },
+    tokenSymbol: 'RING',
+    tokenAddresses: {
+      250: '0x582423C10c9e83387a96d00A69bA3D11ee47B7b5',
+      97: '',
+    },
+    quoteTokenSymbol: QuoteToken.WFTM,
+    quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 14,
+    risk: 1,
+    isTokenOnly: true,
     lpSymbol: 'WFTM',
     lpAddresses: {
       250: '0x5965e53aa80a0bcf1cd6dbdd72e6a9b2aa047410',
@@ -166,7 +251,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdt,
   },
   {
-    pid: 10,
+    pid: 15,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'USDC',
@@ -183,7 +268,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 11,
+    pid: 16,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'USDT',
@@ -200,7 +285,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 12,
+    pid: 17,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'MIM',
@@ -217,7 +302,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 13,
+    pid: 18,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'DAI',
@@ -234,7 +319,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 14,
+    pid: 19,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'WBTC',
@@ -251,7 +336,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 15,
+    pid: 20,
     risk: 2,
     isTokenOnly: true,
     lpSymbol: 'WETH',
@@ -268,7 +353,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wftm,
   },
   {
-    pid: 16,
+    pid: 21,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'BOO',
