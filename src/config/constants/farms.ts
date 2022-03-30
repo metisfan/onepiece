@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'LUFFY-fUSDT',
     lpAddresses: {
-      250: '0xb374d1daeed767403f4e279f24289eeb55123ac4',
+      250: '0xd2292fF8De4946173Ea70687c5d978226Dc7F3B8',
       97: '',
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
-      250: '0x7329528980A3f09C3A06e7b1b97887ce8671f41B',
+      250: '0x0f274e0F1C43C400a88A2CFeB099360336383Ce4',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.USDT,
@@ -23,12 +23,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'LUFFY-WFTM',
     lpAddresses: {
-      250: '0x59a16cbffae79fb6c439b98389d996d2c8f4fa39',
+      250: '0x1Cc67f6512D6aFef1b15Bbb4D9bDf07bB305741c',
       97: '',
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
-      250: '0x7329528980A3f09C3A06e7b1b97887ce8671f41B',
+      250: '0x0f274e0F1C43C400a88A2CFeB099360336383Ce4',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.WFTM,
@@ -137,12 +137,12 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'LUFFY',
     lpAddresses: {
-      250: '0xb374d1daeed767403f4e279f24289eeb55123ac4',
+      250: '0xd2292fF8De4946173Ea70687c5d978226Dc7F3B8',
       97: '', // LUFFY-USDT LP
     },
     tokenSymbol: 'LUFFY',
     tokenAddresses: {
-      250: '0x7329528980A3f09C3A06e7b1b97887ce8671f41B',
+      250: '0x0f274e0F1C43C400a88A2CFeB099360336383Ce4',
       97: '',
     },
     quoteTokenSymbol: QuoteToken.USDT,
