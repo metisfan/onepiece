@@ -123,7 +123,7 @@ const CardFooter: React.FC<Props> = ({
               <FlexFull>
                 <Label>{TranslateString(410, 'End')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={18} />
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={1} />
             </Row>
           )}
           <TokenLink href={projectLink} target="_blank">
